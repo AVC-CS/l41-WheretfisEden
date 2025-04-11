@@ -1,10 +1,10 @@
 def main():
     i = 0 
     N = int(input('Enter the number N: '))
-    i += 2*N 
-    result = [i]
-    for i in result: 
-        print (f'{result}')
+    result = [0] * (N + 1)
+    for i in range(N + 1):
+        result[i] = 2 ** i
+    print (f'{result}')
     
     
 
