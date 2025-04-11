@@ -1,7 +1,11 @@
 def main():
-
+    i = 0 
     N = int(input('Enter the number N: '))
-    result = []
+    i += 2*N 
+    result = [i]
+    print (f'{result}')
+    
+    
 
     """
     ########################################
