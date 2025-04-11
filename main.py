@@ -3,7 +3,8 @@ def main():
     N = int(input('Enter the number N: '))
     i += 2*N 
     result = [i]
-    print (f'{result}')
+    for i in result: 
+        print (f'{result}')
     
     
 
